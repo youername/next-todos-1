@@ -7,7 +7,7 @@ interface Props {
 }
 
 const LoginButton: React.FC<Props> = ({
-  title: name = "",
+  title = "",
   color = "skyblue",
   isBorder = false,
 }) => {
@@ -18,7 +18,7 @@ const LoginButton: React.FC<Props> = ({
       } border w-[80px] text-center py-2 rounded-lg`}
       style={{ color: color }}
     >
-      {name}
+      {title}
     </div>
   );
 };
