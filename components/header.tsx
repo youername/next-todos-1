@@ -23,8 +23,8 @@ const Header: React.FC<Props> = ({ username, photoUrl, color }) => {
           }}
           className="rounded-full"
           style={{
-            width: "50px",
-            height: "50px",
+            width: "48px",
+            height: "48px",
             backgroundImage: `url(${photoUrl})`,
             backgroundSize: "cover",
           }}
